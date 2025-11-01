@@ -19,7 +19,7 @@ A React Native task management app built with Expo Router featuring modern UI de
 ### Installation
 1. Clone repository and install dependencies:
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/ahmedraed101/TaskFlow.git
    cd TaskFlow
    npm install
    ```
