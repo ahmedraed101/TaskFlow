@@ -50,4 +50,21 @@ A React Native task management app built with Expo Router featuring modern UI de
 - **expo-router**: File-based routing system for navigation
 - **TypeScript**: Type safety and better development experience
 
+## Project Structure
+
+```
+app/
+├── (tabs)/
+│   ├── _layout.tsx          # Tab navigation configuration
+│   ├── index.tsx            # Main task management screen
+│   └── about.tsx            # About/help screen
+├── components/
+│   ├── TaskInput.tsx        # Task input with validation
+│   ├── TaskItem.tsx         # Individual task component
+│   └── TaskList.tsx         # Task list container
+├── types/
+│   └── Task.ts              # TypeScript interfaces
+└── _layout.tsx              # Root layout with status bar
+```
+
 Built for React Native technical assessment with TypeScript, local state management, and modern mobile development practices.
